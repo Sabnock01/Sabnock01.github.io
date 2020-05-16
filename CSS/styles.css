@@ -60,6 +60,10 @@ li {
     padding: 0;
 }
 
+li a {
+    text-decoration: none;
+}
+
 a {
     color: 	#FF007F;
     text-decoration: none;
@@ -107,6 +111,10 @@ body {
     float: left;
 }
 
+.masthead .menu {
+    padding-left: 100px;
+    direction: ltr;
+}
 
 .main {
     width: 600px;
@@ -114,11 +122,6 @@ body {
     margin-left: 360px;
     border-left: 3px solid 	#FF007F;
     min-height: calc(100vh - 80px);
-}
-
-.masthead .menu {
-    padding-left: 100px;
-    direction: ltr;
 }
 
 .main .title h1 {
